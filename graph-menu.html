@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="http://code.angularjs.org/snapshot/angular.js"></script>
+    <script type="text/javascript" src="http://code.angularjs.org/snapshot/angular-animate.js"></script>
+    <script type="text/javascript" src="graph-menu.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body ng-app="graphmenu">
+
+<div ng-controller="MenuCtrl">
+    <div ng-include="'menulevel.html'"></div>
+</div>
+
+<script type="text/ng-template" id="menulevel.html">
+    <div ng-repeat="option in option.options" class="item">
+        <input class="toggle btn" type="radio" value="{{ option.title }}" id="{{ option.title }}" ng-model="$parent.choice"/>
+        <label for="{{ option.title }}">{{ option.title }}</label>
+
+        <div ng-if="$parent.choice == option.title" class="level">
+            <div ng-include="'menulevel.html'"></div>
+        </div>
+    </div>
+</script>
+
+</body>
+</html>
+

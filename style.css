@@ -1,0 +1,56 @@
+body {
+    padding: 1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+
+}
+
+div div div {
+    margin-left: 0.5em;
+}
+
+.level.ng-leave {
+    transition: all 1s linear;
+    max-height: 500px;
+    overflow:hidden;
+}
+
+.level.ng-leave.ng-leave-active{
+    max-height: 0;
+    overflow:hidden;
+}
+
+.item.ng-enter {
+    opacity: 0;
+    height: 0;
+    transition: all 1s linear;
+}
+
+.item.ng-enter.ng-enter-active {
+    opacity: 1;
+    height: 21px;
+}
+
+input[type="radio"].toggle {
+    /* display: none;*/
+}
+
+input[type="radio"].toggle + label {
+    width: 3em;
+    cursor: pointer;
+}
+
+input[type="radio"].toggle:checked + label {
+    background: linear-gradient(to top, #4682B4, #3f7ca9);
+    box-shadow: inset 0 1px 6px rgba(41, 41, 41, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #E6E6E6;
+    border-color: transparent;
+    text-shadow: 0 1px 1px rgba(40, 40, 40, 0.75);
+}
+
+input[type="radio"].toggle:checked + label:hover {
+    background-color: inherit;
+    background-position: 0 0;
+    transition: none;
+}

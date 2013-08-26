@@ -1,0 +1,580 @@
+[
+    {
+        "title": "Salmonids",
+        "group": "Salmonids",
+        "options": [
+            {
+                "title": "Atlantic salmon (Norway)",
+                "species": "Atlantic",
+                "origin": "Norway",
+                "specs": "whole round, fresh",
+                "size": "3-6 kilos",
+                "options": [
+                    {
+                        "title": "Weekly",
+                        "frequency": "weekly",
+                        "target": "norwaySalmonWeekly"
+                    },
+                    {
+                        "title": "Monthly",
+                        "frequency": "monthly",
+                        "target": "norwaySalmonMonthly"
+                    }
+                ]
+            },
+            {
+                "title": "Pacific salmon (Alaska)",
+                "options": [
+                    {
+                        "title": "Chum",
+                        "species": "Chum",
+                        "size": "6-9lbs",
+                        "specs": "Frozen H&G",
+                        "target": "wildsalmon_chum69"
+                    },
+                    {
+                        "title": "Sockeye",
+                        "species": "Sockeye",
+                        "size": "4-6lbs",
+                        "specs": "Frozen H&G",
+                        "target": "wildsalmon_sockeye46"
+                    },
+                    {
+                        "title": "Pink",
+                        "species": "Pink",
+                        "size": "2lbs +",
+                        "specs": "Frozen H&G",
+                        "target": "wildsalmon_pink02"
+                    }
+                ]
+            },
+            {
+                "title": "US wholesale prices",
+                "options": [
+                    {
+                        "title": "Chile(IQF)",
+                        "options": [
+                            {
+                                "title": "6oz",
+                                "size": "6oz",
+                                "target": "chilesalmonIQF_06_Boston"
+                            },
+                            {
+                                "title": "8oz",
+                                "size": "8oz",
+                                "target": "chilesalmonIQF_08_Boston"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "China (Vac pac)",
+                        "options": [
+                            {
+                                "title": "4oz",
+                                "size": "4oz",
+                                "target": "chinaSalmonVacpac_04_Boston"
+                            },
+                            {
+                                "title": "6oz",
+                                "size": "6oz",
+                                "target": "chinaSalmonVacpac_06_Boston"
+                            },
+                            {
+                                "title": "8oz",
+                                "size": "8oz",
+                                "target": "chinaSalmonVacpac_08_Boston"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Norway (IQF)",
+                        "options": [
+                            {
+                                "title": "4oz",
+                                "size": "4oz",
+                                "target": "norwaysalmonIQF_04_Boston"
+                            },
+                            {
+                                "title": "6 to 8oz",
+                                "size": "6to8oz",
+                                "target": "norwaysalmonIQF_0608_Boston"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Whitefish",
+        "group": "Whitefish",
+        "options": [
+            {
+                "title": "Barents Sea cod (Russia)",
+                "target": "russiaCod"
+            },
+            {
+                "title": "Alaska pollock (Russia and US)",
+                "options": [
+                    {
+                        "title": "Russia",
+                        "target": "russiaPollock"
+                    },
+                    {
+                        "title": "US",
+                        "target": "alaskaPollock"
+                    }
+                ]
+            },
+            {
+                "title": "Tilapia (China)",
+                "target": "chinatilapia"
+            },
+            {
+                "title": "Pangasius (Vietnam)",
+                "target": "viet_pangasius_weekly"
+            },
+            {
+                "title": "Seabass (Madrid)",
+                "options": [
+                    {
+                        "title": "Weekly prices",
+                        "options": [
+                            {
+                                "title": "< 600g",
+                                "target": "seabass_madrid_weekly_small"
+                            },
+                            {
+                                "title": "600g - 1kg",
+                                "target": "seabass_madrid_weekly_medium"
+                            },
+                            {
+                                "title": "1kg +",
+                                "target": "seabass_madrid_weekly_large"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Monthly prices",
+                        "target": "seabass_madrid_monthly"
+                    }
+                ]
+            },
+            {
+                "title": "Seabream (Madrid)",
+                "options": [
+                    {
+                        "title": "Weekly prices",
+                        "options": [
+                            {
+                                "title": "300-400g",
+                                "target": "seabream_madrid_weekly_small"
+                            },
+                            {
+                                "title": "400-600g",
+                                "target": "seabream_madrid_weekly_medium"
+                            },
+                            {
+                                "title": "600+ grams",
+                                "target": "seabream_madrid_weekly_large"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Monthly prices",
+                        "target": "seabream_madrid_monthly"
+                    }
+                ]
+            },
+            {
+                "title": "Atlantic cod (US wholesale prices)",
+                "options": [
+                    {
+                        "title": "China",
+                        "options": [
+                            {
+                                "title": "4-8",
+                                "target": "chinaAtlCod_Boston0408"
+                            },
+                            {
+                                "title": "8-16",
+                                "target": "chinaAtlCod_Boston0816"
+                            },
+                            {
+                                "title": "16-32",
+                                "target": "chinaAtlCod_Boston1632"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Russia",
+                        "options": [
+                            {
+                                "title": "5-8",
+                                "target": "russiaCod_Boston0508"
+                            },
+                            {
+                                "title": "8-16",
+                                "target": "russiaCod_Boston0816"
+                            },
+                            {
+                                "title": "16-32",
+                                "target": "russiaCod_Boston1632"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Iceland",
+                        "options": [
+                            {
+                                "title": "8-16",
+                                "target": "icelandCod_Boston0816"
+                            },
+                            {
+                                "title": "10-12",
+                                "target": "icelandCod_Boston1012"
+                            },
+                            {
+                                "title": "16-32",
+                                "target": "icelandCod_Boston1632"
+                            },
+                            {
+                                "title": "32+",
+                                "target": "icelandCod_Boston32"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Pacific cod (China) (US wholesale prices)",
+                "options": [
+                    {
+                        "title": "8-16",
+                        "target": "chinaPaCod_Boston0816"
+                    },
+                    {
+                        "title": "16-32",
+                        "target": "chinaPaCod_Boston1632"
+                    }
+                ]
+            },
+            {
+                "title": "Pollock blocks (US wholesale price)",
+                "options": [
+                    {
+                        "title": "Double frozen, China",
+                        "target": "pollockChina_Boston"
+                    },
+                    {
+                        "title": "Domestic, deepskin",
+                        "target": "pollockDeepskin_Boston"
+                    },
+                    {
+                        "title": "Domestica (mainly PBO)",
+                        "target": "pollockPBO_Boston"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Pelagics",
+        "group": "Pelagics",
+        "options": [
+            {
+                "title": "Skipjack tuna",
+                "target": "skipjackBKK"
+            }
+        ]
+    },
+    {
+        "title": "Shellfish",
+        "group": "Shellfish",
+        "options": [
+            {
+                "title": "Vannamei (Thailand)",
+                "options": [
+                    {
+                        "title": "Weekly prices",
+                        "options": [
+                            {
+                                "title": "60 pieces per kilo",
+                                "target": "thaishrimp_60_weekly"
+                            },
+                            {
+                                "title": "70 pieces per kilo",
+                                "target": "thaishrimp_70_weekly"
+                            },
+                            {
+                                "title": "80 pieces per kilo",
+                                "target": "thaishrimp_80_weekly"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Monthly prices",
+                        "options": [
+                            {
+                                "title": "60 pieces per kilo",
+                                "target": "thaishrimp_60"
+                            },
+                            {
+                                "title": "70 pieces per kilo",
+                                "target": "thaishrimp_70"
+                            },
+                            {
+                                "title": "80 pieces per kilo",
+                                "target": "thaishrimp_80"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Coldwater shrimp (Iceland)",
+                "options": [
+                    {
+                        "title": "100/200",
+                        "target": "coldwaterIceland_100_200"
+                    },
+                    {
+                        "title": "150/250",
+                        "target": "coldwaterIceland_150_250"
+                    },
+                    {
+                        "title": "250/350",
+                        "target": "coldwaterIceland_250_250"
+                    },
+                    {
+                        "title": "300/500",
+                        "target": "coldwaterIceland_300_500"
+                    },
+                    {
+                        "title": "500/800",
+                        "target": "coldwaterIceland_500_800"
+                    }
+                ]
+            },
+            {
+                "title": "Scallops (US wholesale price)",
+                "options": [
+                    {
+                        "title": "Up to 10",
+                        "target": "scallops_BostonU10"
+                    },
+                    {
+                        "title": "10-20",
+                        "target": "scallops_Boston1020"
+                    }
+                ]
+            },
+            {
+                "title": "Black tiger (US wholesale price)",
+                "options": [
+                    {
+                        "title": "India",
+                        "options": [
+                            {
+                                "title": "Up to 15",
+                                "target": "indiaBT_NYU15"
+                            },
+                            {
+                                "title": "16-20",
+                                "target": "indiaBT_NY1620"
+                            },
+                            {
+                                "title": "21‑25",
+                                "target": "indiaBT_NY2125"
+                            },
+                            {
+                                "title": "26‑30",
+                                "target": "indiaBT_NY2630"
+                            },
+                            {
+                                "title": "31‑40",
+                                "target": "indiaBT_NY3140"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Vietnam",
+                        "options": [
+                            {
+                                "title": "Up to 15",
+                                "target": "vietBT_NYU15"
+                            },
+                            {
+                                "title": "21‑25",
+                                "target": "vietBT_NY2125"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Bangladesh",
+                        "options": [
+                            {
+                                "title": "16-20",
+                                "target": "indiaBT_NY1620"
+                            },
+                            {
+                                "title": "21‑25",
+                                "target": "indiaBT_NY2125"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Vannamei (US wholesale price)",
+                "options": [
+                    {
+                        "title": "HLSO",
+                        "options": [
+                            {
+                                "title": "Indonesia",
+                                "options": [
+                                    {
+                                        "title": "Up to 15",
+                                        "target": "indoHLSO_NYU15"
+                                    },
+                                    {
+                                        "title": "16-20",
+                                        "target": "indoHLSO_NY1620"
+                                    },
+                                    {
+                                        "title": "21-25",
+                                        "target": "indoHLSO_NY2125"
+                                    },
+                                    {
+                                        "title": "26-30",
+                                        "target": "indoHLSO_NY2630"
+                                    },
+                                    {
+                                        "title": "31-40",
+                                        "target": "indoHLSO_NY3140"
+                                    },
+                                    {
+                                        "title": "41-50",
+                                        "target": "indoHLSO_NY4150"
+                                    },
+                                    {
+                                        "title": "51-60",
+                                        "target": "indoHLSO_NY5160"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Thailand",
+                                "options": [
+                                    {
+                                        "title": "16-20",
+                                        "target": "ThaiHLSO_NY1620"
+                                    },
+                                    {
+                                        "title": "21-25",
+                                        "target": "ThaiHLSO_NY2125"
+                                    },
+                                    {
+                                        "title": "26-30",
+                                        "target": "ThaiHLSO_NY2630"
+                                    },
+                                    {
+                                        "title": "31-40",
+                                        "target": "ThaiHLSO_NY3140"
+                                    },
+                                    {
+                                        "title": "41-50",
+                                        "target": "ThaiHLSO_NY4150"
+                                    },
+                                    {
+                                        "title": "51-60",
+                                        "target": "ThaiHLSO_NY5160"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "India",
+                                "options": [
+                                    {
+                                        "title": "16-20",
+                                        "target": "indiaHLSO_NY1620"
+                                    },
+                                    {
+                                        "title": "21-25",
+                                        "target": "indiaHLSO_NY2125"
+                                    },
+                                    {
+                                        "title": "26-30",
+                                        "target": "indiaHLSO_NY2630"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "CPTO (Indonesia)",
+                        "options": [
+                            {
+                                "title": "26-30",
+                                "target": "indoCPTO_NY2630"
+                            },
+                            {
+                                "title": "31-40",
+                                "target": "indoCPTO_NY3140"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "#1 (farm, Indonesia)",
+                        "options": [
+                            {
+                                "title": "16-20",
+                                "target": "indopremium_NY1620"
+                            },
+                            {
+                                "title": "21-25",
+                                "target": "indopremium_NY2125"
+                            },
+                            {
+                                "title": "26-30",
+                                "target": "indopremium_NY2630"
+                            },
+                            {
+                                "title": "31-35",
+                                "target": "indopremium_NY3135"
+                            },
+                            {
+                                "title": "61-70",
+                                "target": "indopremium__NY6170"
+                            },
+                            {
+                                "title": "71-90",
+                                "target": "indopremium__NY7190"
+                            }
+                        ]
+
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Fishmeal",
+        "group": "Fishmeal",
+        "options": [
+            {
+                "title": "Fishmeal (Peru)",
+                "target": "fishmeal_peru"
+            },
+            {
+                "title": "Soymeal futures",
+                "target": "soymeal_chicago"
+            },
+            {
+                "title": "Soymeal (Argentina)",
+                "target": "soymeal_argentina"
+            }
+        ]
+    }
+]
