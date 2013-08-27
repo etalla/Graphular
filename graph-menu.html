@@ -14,16 +14,14 @@
 </div>
 
 <script type="text/ng-template" id="menulevel.html">
-    <div ng-repeat="option in option.options" class="item">
-        <input class="toggle btn" type="radio" value="{{ option.title }}" id="{{ option.title }}" ng-model="$parent.choice"/>
-        <label for="{{ option.title }}">{{ option.title }}</label>
-
-        <div ng-if="$parent.choice == option.title" class="level">
-            <div ng-include="'menulevel.html'"></div>
+    <div ng-repeat="option in option.options">
+        <div class="item" ng-show="ancestorsSelected(this)">
+          <input class="toggle btn" type="radio" value="{{ option.title }}" id="{{ option.title }}" ng-model="$parent.choice" />
+          <label for="{{ option.title }}">{{ option.title }}</label>
         </div>
+        <div ng-include="'menulevel.html'"></div>
     </div>
 </script>
 
 </body>
 </html>
-
